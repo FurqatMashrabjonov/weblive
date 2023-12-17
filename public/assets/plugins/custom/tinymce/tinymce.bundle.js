@@ -13094,7 +13094,9 @@
         'click'
       ];
       var tapEvent = monitor(settings);
-      var simpleEvents = map$2(pointerEvents.concat([
+      var
+
+          simpleEvents = map$2(pointerEvents.concat([
         'selectstart',
         'input',
         'contextmenu',
